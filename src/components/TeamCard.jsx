@@ -2,11 +2,11 @@ import React from "react";
 
 const TeamCard = ({ member, index }) => {
   return (
-    <div key={index} className="grayscale-50">
+    <div key={index} className="grayscale-75">
       <img
         src={member.image}
         alt={member.name}
-        className="w-full h-60 object-cover brightness-[0.6]"
+        className="w-full h-60 object-cover"
       />
       <div className="space-y-2 mt-4 text-[15px]">
         <h3 className="text-[24px] font-serif font-[400]">{member.name}</h3>
