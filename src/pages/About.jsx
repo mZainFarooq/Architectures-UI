@@ -7,7 +7,7 @@ const About = () => {
     <section id="about" className="px-8 ">
       <div className="py-4">
         <div className="py-4">
-          <h1 className=" py-8">About</h1>
+          <h1 className=" py-8 font-serif">About</h1>
           <hr className=" border-gray-200" />
         </div>
         <p>

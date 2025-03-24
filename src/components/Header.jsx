@@ -7,12 +7,12 @@ const Header = () => {
     { text: "Contact", href: "#contact" },
   ];
   return (
-    <header className="bg-white fixed top-0 w-full text-black py-2 px-4 flex justify-between items-center shadow-lg z-10 ">
+    <header className="bg-white fixed top-0 w-full text-black h-14 px-4 flex justify-between items-center shadow-lg z-10 ">
       <a
-        href="#"
+        href="#home"
         className="inline-block text-[15px] tracking-[4px]  hover:bg-gray-300 p-2 px-4 cursor-pointer space-x-2 font-medium "
       >
-        <b className="font-[Verdana-bold]">BR</b>
+        <b>BR</b>
         <span>Architects</span>
       </a>
       <nav className="hidden sm:block">

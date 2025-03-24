@@ -2,6 +2,9 @@
 
 @theme {
   --font-Verdana: Verdana, sans-serif;
+  --font-serif: "Segoe UI", Arial, sans-serif;
+  --breakpoint-sm: 601px;
+  --breakpoint-md: 992px; /* 1024px */
 }
 
 html,
@@ -14,10 +17,6 @@ body {
   font-family: "Verdana";
   src: url(/assets/fonts/verdana.ttf);
 }
-@font-face {
-  font-family: "Verdana-bold";
-  src: url(/assets/fonts/verdana-bold.ttf);
-}
 
 h1 {
   font-size: 24px;
@@ -26,4 +25,10 @@ h1 {
 
 p {
   font-size: 15px;
+}
+
+#projects,
+#about,
+#contact {
+  max-width: 1564px;
 }

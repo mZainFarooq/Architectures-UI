@@ -4,8 +4,8 @@ const Contact = () => {
   return (
     <section id="contact" className="px-8">
       <div className="py-4">
-        <h1 className="py-8">Contact</h1>
-        <hr className=" border-gray-200" />
+        <h1 className="py-8 font-serif">Contact</h1>
+        <hr className="border-gray-200" />
       </div>
       <div>
         <p>Lets get in touch and talk about your next project.</p>
@@ -45,7 +45,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
-      <div className="py-8">
+      <div className="py-8 ">
         <img src="https://www.w3schools.com/w3images/map.jpg" alt="" />
       </div>
     </section>

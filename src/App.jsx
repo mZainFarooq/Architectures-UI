@@ -10,10 +10,12 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Home />
-      <Projects />
-      <About />
-      <Contact />
+      <div className="flex flex-col items-center justify-center">
+        <Home />
+        <Projects />
+        <About />
+        <Contact />
+      </div>
       <Footer />
     </div>
   );
