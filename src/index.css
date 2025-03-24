@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-Verdana: Verdana, sans-serif;
+}
+
+html,
+body {
+  font-family: var(--font-Verdana);
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Verdana";
+  src: url(/assets/fonts/verdana.ttf);
+}
+@font-face {
+  font-family: "Verdana-bold";
+  src: url(/assets/fonts/verdana-bold.ttf);
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 15px;
+}
